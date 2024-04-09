@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41B6CD6D2A55A6E800608C63 /* Craft_AlleyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B6CD6C2A55A6E800608C63 /* Craft_AlleyApp.swift */; };
+		41B6CD6F2A55A6E800608C63 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B6CD6E2A55A6E800608C63 /* LoginView.swift */; };
+		41B6CD712A55A6EA00608C63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B6CD702A55A6EA00608C63 /* Assets.xcassets */; };
+		41B6CD742A55A6EA00608C63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B6CD732A55A6EA00608C63 /* Preview Assets.xcassets */; };
+		41B6CD8B2A55B8A800608C63 /* Consider Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 41B6CD8A2A55B8A800608C63 /* Consider Italic.otf */; };
+		41B6CD912A55BBB600608C63 /* Milk And Honey.otf in Resources */ = {isa = PBXBuildFile; fileRef = 41B6CD902A55BBB500608C63 /* Milk And Honey.otf */; };
+		41B6CD932A55CB2F00608C63 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B6CD922A55CB2F00608C63 /* Data.swift */; };
+		711A92CF2A58A2F40053C773 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A92CE2A58A2F40053C773 /* MenuView.swift */; };
+		711A92D12A58A3330053C773 /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A92D02A58A3330053C773 /* SlideView.swift */; };
+		71679A642A5622BC00D564A2 /* EditAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71679A632A5622BC00D564A2 /* EditAccountView.swift */; };
+		71679A662A5628CF00D564A2 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71679A652A5628CF00D564A2 /* ForgotPasswordView.swift */; };
+		71791F862A56197E000B1693 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71791F852A56197E000B1693 /* SignUpView.swift */; };
+		719D323A2A56F176000CB2E3 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719D32392A56F176000CB2E3 /* LandingView.swift */; };
+		719D323C2A56FB7D000CB2E3 /* GraphicDesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719D323B2A56FB7D000CB2E3 /* GraphicDesignView.swift */; };
+		719D323E2A572DA0000CB2E3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719D323D2A572DA0000CB2E3 /* CardView.swift */; };
+		719D32402A574980000CB2E3 /* VideoEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719D323F2A574980000CB2E3 /* VideoEditingView.swift */; };
+		719D32422A5749CA000CB2E3 /* ArtCommissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719D32412A5749CA000CB2E3 /* ArtCommissionView.swift */; };
+		719D32442A574A64000CB2E3 /* OtherServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719D32432A574A64000CB2E3 /* OtherServicesView.swift */; };
+		719D32462A576D91000CB2E3 /* ArtistProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719D32452A576D91000CB2E3 /* ArtistProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41B6CD692A55A6E800608C63 /* Craft Alley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Craft Alley.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B6CD6C2A55A6E800608C63 /* Craft_AlleyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Craft_AlleyApp.swift; sourceTree = "<group>"; };
+		41B6CD6E2A55A6E800608C63 /* LoginView.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		41B6CD702A55A6EA00608C63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41B6CD732A55A6EA00608C63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41B6CD852A55B17C00608C63 /* Craft-Alley-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Craft-Alley-Info.plist"; sourceTree = SOURCE_ROOT; };
+		41B6CD8A2A55B8A800608C63 /* Consider Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Consider Italic.otf"; sourceTree = "<group>"; };
+		41B6CD902A55BBB500608C63 /* Milk And Honey.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Milk And Honey.otf"; sourceTree = "<group>"; };
+		41B6CD922A55CB2F00608C63 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		711A92CE2A58A2F40053C773 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		711A92D02A58A3330053C773 /* SlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
+		71679A632A5622BC00D564A2 /* EditAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountView.swift; sourceTree = "<group>"; };
+		71679A652A5628CF00D564A2 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		71791F852A56197E000B1693 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		719D32392A56F176000CB2E3 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		719D323B2A56FB7D000CB2E3 /* GraphicDesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicDesignView.swift; sourceTree = "<group>"; };
+		719D323D2A572DA0000CB2E3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		719D323F2A574980000CB2E3 /* VideoEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditingView.swift; sourceTree = "<group>"; };
+		719D32412A5749CA000CB2E3 /* ArtCommissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCommissionView.swift; sourceTree = "<group>"; };
+		719D32432A574A64000CB2E3 /* OtherServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherServicesView.swift; sourceTree = "<group>"; };
+		719D32452A576D91000CB2E3 /* ArtistProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41B6CD662A55A6E800608C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41B6CD602A55A6E800608C63 = {
+			isa = PBXGroup;
+			children = (
+				41B6CD6B2A55A6E800608C63 /* Craft Alley */,
+				41B6CD6A2A55A6E800608C63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41B6CD6A2A55A6E800608C63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41B6CD692A55A6E800608C63 /* Craft Alley.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41B6CD6B2A55A6E800608C63 /* Craft Alley */ = {
+			isa = PBXGroup;
+			children = (
+				41B6CD8A2A55B8A800608C63 /* Consider Italic.otf */,
+				41B6CD902A55BBB500608C63 /* Milk And Honey.otf */,
+				41B6CD852A55B17C00608C63 /* Craft-Alley-Info.plist */,
+				41B6CD6C2A55A6E800608C63 /* Craft_AlleyApp.swift */,
+				41B6CD6E2A55A6E800608C63 /* LoginView.swift */,
+				71679A652A5628CF00D564A2 /* ForgotPasswordView.swift */,
+				71791F852A56197E000B1693 /* SignUpView.swift */,
+				71679A632A5622BC00D564A2 /* EditAccountView.swift */,
+				711A92D02A58A3330053C773 /* SlideView.swift */,
+				719D32392A56F176000CB2E3 /* LandingView.swift */,
+				711A92CE2A58A2F40053C773 /* MenuView.swift */,
+				719D323D2A572DA0000CB2E3 /* CardView.swift */,
+				719D323B2A56FB7D000CB2E3 /* GraphicDesignView.swift */,
+				719D323F2A574980000CB2E3 /* VideoEditingView.swift */,
+				719D32412A5749CA000CB2E3 /* ArtCommissionView.swift */,
+				719D32432A574A64000CB2E3 /* OtherServicesView.swift */,
+				719D32452A576D91000CB2E3 /* ArtistProfileView.swift */,
+				41B6CD922A55CB2F00608C63 /* Data.swift */,
+				41B6CD702A55A6EA00608C63 /* Assets.xcassets */,
+				41B6CD722A55A6EA00608C63 /* Preview Content */,
+			);
+			path = "Craft Alley";
+			sourceTree = "<group>";
+		};
+		41B6CD722A55A6EA00608C63 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41B6CD732A55A6EA00608C63 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41B6CD682A55A6E800608C63 /* Craft Alley */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41B6CD772A55A6EA00608C63 /* Build configuration list for PBXNativeTarget "Craft Alley" */;
+			buildPhases = (
+				41B6CD652A55A6E800608C63 /* Sources */,
+				41B6CD662A55A6E800608C63 /* Frameworks */,
+				41B6CD672A55A6E800608C63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Craft Alley";
+			productName = "Craft Alley";
+			productReference = 41B6CD692A55A6E800608C63 /* Craft Alley.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41B6CD612A55A6E800608C63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					41B6CD682A55A6E800608C63 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 41B6CD642A55A6E800608C63 /* Build configuration list for PBXProject "Craft Alley" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41B6CD602A55A6E800608C63;
+			productRefGroup = 41B6CD6A2A55A6E800608C63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41B6CD682A55A6E800608C63 /* Craft Alley */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41B6CD672A55A6E800608C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B6CD912A55BBB600608C63 /* Milk And Honey.otf in Resources */,
+				41B6CD742A55A6EA00608C63 /* Preview Assets.xcassets in Resources */,
+				41B6CD712A55A6EA00608C63 /* Assets.xcassets in Resources */,
+				41B6CD8B2A55B8A800608C63 /* Consider Italic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41B6CD652A55A6E800608C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719D323C2A56FB7D000CB2E3 /* GraphicDesignView.swift in Sources */,
+				71791F862A56197E000B1693 /* SignUpView.swift in Sources */,
+				41B6CD6F2A55A6E800608C63 /* LoginView.swift in Sources */,
+				41B6CD932A55CB2F00608C63 /* Data.swift in Sources */,
+				719D32462A576D91000CB2E3 /* ArtistProfileView.swift in Sources */,
+				711A92D12A58A3330053C773 /* SlideView.swift in Sources */,
+				719D32422A5749CA000CB2E3 /* ArtCommissionView.swift in Sources */,
+				719D32442A574A64000CB2E3 /* OtherServicesView.swift in Sources */,
+				719D323A2A56F176000CB2E3 /* LandingView.swift in Sources */,
+				41B6CD6D2A55A6E800608C63 /* Craft_AlleyApp.swift in Sources */,
+				711A92CF2A58A2F40053C773 /* MenuView.swift in Sources */,
+				719D323E2A572DA0000CB2E3 /* CardView.swift in Sources */,
+				71679A662A5628CF00D564A2 /* ForgotPasswordView.swift in Sources */,
+				71679A642A5622BC00D564A2 /* EditAccountView.swift in Sources */,
+				719D32402A574980000CB2E3 /* VideoEditingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		41B6CD752A55A6EA00608C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41B6CD762A55A6EA00608C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41B6CD782A55A6EA00608C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Craft Alley/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Craft-Alley-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Craft-Alley";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41B6CD792A55A6EA00608C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Craft Alley/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Craft-Alley-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "--.Craft-Alley";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41B6CD642A55A6E800608C63 /* Build configuration list for PBXProject "Craft Alley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B6CD752A55A6EA00608C63 /* Debug */,
+				41B6CD762A55A6EA00608C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41B6CD772A55A6EA00608C63 /* Build configuration list for PBXNativeTarget "Craft Alley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41B6CD782A55A6EA00608C63 /* Debug */,
+				41B6CD792A55A6EA00608C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41B6CD612A55A6E800608C63 /* Project object */;
+}
